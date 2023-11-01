@@ -19,5 +19,10 @@ window.onload = function () {
         } else {
             under21.removeAttribute("class");
         }
+
+        let submit = document.querySelector("form>button");
+        submit.onclick = function () {
+            document.body.style.backgroundColor = "green";
+        }
     };
 };
